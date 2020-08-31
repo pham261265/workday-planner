@@ -3,7 +3,7 @@ var date = moment().format("MMM Do YYYY");
 
 $("#currentDay").append(date);
 
-var timeOfday = ["8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"]
+var timeOfday = ["7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19"]
 updatetime();
 
 function updatetime() {
@@ -34,26 +34,28 @@ $(".rowBtn").on("click", function() {
     console.log(timeOfday, textContent);
 });
 
-  $("#9am").children("input").val(localStorage.getItem("8am"));
+$("#7am").children("input").val(localStorage.getItem("7am"));
 
-  $("#9am").children("input").val(localStorage.getItem("9am"));
+$("#8am").children("input").val(localStorage.getItem("8am"));
 
-  $("#10am").children("input").val(localStorage.getItem("10am"));
+$("#9am").children("input").val(localStorage.getItem("9am"));
 
-  $("#11am").children("input").val(localStorage.getItem("11am"));
+$("#10am").children("input").val(localStorage.getItem("10am"));
 
-  $("#12pm").children("input").val(localStorage.getItem("12pm"));
+$("#11am").children("input").val(localStorage.getItem("11am"));
 
-  $("#1pm").children("input").val(localStorage.getItem("1pm"));
+$("#12pm").children("input").val(localStorage.getItem("12pm"));
 
-  $("#2pm").children("input").val(localStorage.getItem("2pm"));
+$("#1pm").children("input").val(localStorage.getItem("1pm"));
 
-  $("#3pm").children("input").val(localStorage.getItem("3pm"));
+$("#2pm").children("input").val(localStorage.getItem("2pm"));
 
-  $("#4pm").children("input").val(localStorage.getItem("4pm"));
+$("#3pm").children("input").val(localStorage.getItem("3pm"));
 
-  $("#5pm").children("input").val(localStorage.getItem("5pm"));
+$("#4pm").children("input").val(localStorage.getItem("4pm"));
 
-  $("#6pm").children("input").val(localStorage.getItem("6pm"));
+$("#5pm").children("input").val(localStorage.getItem("5pm"));
 
-  $("#7pm").children("input").val(localStorage.getItem("7pm"));
+$("#6pm").children("input").val(localStorage.getItem("6pm"));
+
+$("#7pm").children("input").val(localStorage.getItem("7pm"));

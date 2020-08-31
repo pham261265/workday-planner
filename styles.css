@@ -4,6 +4,12 @@ body {
     line-height: 1;
   }
 
+ 
+  }
+
+  .container {
+      background-color: #73919b;
+  }
 
   .col {
       background: transparent;
@@ -40,4 +46,30 @@ body {
     background-color: #06AED5;
     color: white;
     
+  }
+
+  .footer {
+    background-color: #666;
+    height: 10%;
+    border-top: solid;
+    border-top-color: #b6d7e2;  
+    border-top-width: 8px;
+  }
+  
+  .footer-text, .header-text {
+    width: 100%;
+    text-align: center;
+  
+    font-size: 10px;
+    color:linen; 
+  }
+
+  .navbar {
+    background-color: #73919b;  
+    color: #b6d7e2;  
+    padding-bottom: 0;
+    border-bottom: solid;
+    border-bottom-color: #ccc;
+    width: 100%;
+    text-align: center;
   }
